@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="backend" />
+        <module name="accu-weather-miner" />
+        <module name="processor" />
+        <module name="open-weather-miner" />
+        <module name="tommorow-miner" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accessor" target="21" />
+      <module name="miners" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accessor" options="-parameters" />
+      <module name="accu-weather-miner" options="-parameters" />
+      <module name="backend" options="-parameters" />
+      <module name="open-weather-miner" options="-parameters" />
+      <module name="processor" options="-parameters" />
+      <module name="tommorow-miner" options="-parameters" />
+    </option>
+  </component>
+</project>
